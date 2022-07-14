@@ -15,4 +15,6 @@ jobs:
       - uses: nrwl/nx-set-shas@v2
       - run: npm ci
 
-      - run: npx nx affected --target=release --parallel=3
+      - run: |
+          CURRENT_VERSION=$(git tag -l "v*" --sort=-version:refname | head -n 1)
+          npx nx affected --target=version --base=CURRENT_VERSION
