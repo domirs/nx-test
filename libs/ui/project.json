@@ -43,7 +43,8 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-        "tagPrefix": "${projectName}@"
+        "tagPrefix": "${projectName}@",
+        "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]"
       }
     }
   }
