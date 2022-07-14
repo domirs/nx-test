@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.0](https://github.com/domirs/nx-test/compare/ui@0.0.3...ui@0.1.0) (2022-07-14)
+
+
+### Features
+
+* **ui:** add paragraph ([bc8b6c1](https://github.com/domirs/nx-test/commit/bc8b6c1c7d63bbabf3f9f7b89a3c13bc7677c623))
+
 ### [0.0.3](https://github.com/domirs/nx-test/compare/ui@0.0.2...ui@0.0.3) (2022-07-14)
 
 ### 0.0.1 (2022-07-14)
