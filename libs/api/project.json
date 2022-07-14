@@ -38,18 +38,6 @@
         "jestConfig": "libs/api/jest.config.ts",
         "passWithNoTests": true
       }
-    },
-    "release": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "commands": [
-          {
-            "command": "git tag -l \"@domirs/api@*\" --sort=-version:refname | head -n 1",
-            "forwardAllArgs": false
-          }
-        ]
-      }
     }
   }
 }
