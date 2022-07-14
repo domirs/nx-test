@@ -13,16 +13,11 @@ jobs:
         with:
           fetch-depth: 0
       - uses: nrwl/nx-set-shas@v2
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
       - run: npm ci
-
       - name: Version
         run: |
           LAST_VERSION=$(git tag -l --sort=-creatordate | head -n 1)
           npx nx affected --target=version --base=$LAST_VERSION
-          npx prettier -w .
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tags: true
