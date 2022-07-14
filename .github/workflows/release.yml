@@ -16,5 +16,5 @@ jobs:
       - run: npm ci
 
       - run: |
-          CURRENT_VERSION=$(git tag -l "v*" --sort=-version:refname | head -n 1)
-          npx nx affected --target=version --base=CURRENT_VERSION
+          LAST_VERSION=$(git tag -l --sort=-creatordate | head -n 1)
+          npx nx affected --target=version --base=$LAST_VERSION
