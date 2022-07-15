@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.1](https://github.com/domirs/nx-test/compare/ui@0.2.0...ui@0.2.1) (2022-07-15)
+
+
+### Bug Fixes
+
+* **ui:** typo ([78265ea](https://github.com/domirs/nx-test/commit/78265eaa572dca20a5260d9f17b6ddeb5a11b2ab))
+
 ## [0.2.0](https://github.com/domirs/nx-test/compare/ui@0.1.0...ui@0.2.0) (2022-07-15)
 
 
