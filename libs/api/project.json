@@ -44,7 +44,8 @@
       "options": {
         "preset": "conventional",
         "tagPrefix": "${projectName}@",
-        "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]"
+        "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]",
+        "trackDeps": true
       }
     }
   }
