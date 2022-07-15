@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.6](https://github.com/domirs/nx-test/compare/ui@0.2.5...ui@0.2.6) (2022-07-15)
+
+### Dependency Updates
+
+* `shared` updated to version `0.1.0`
 ### [0.2.5](https://github.com/domirs/nx-test/compare/ui@0.2.4...ui@0.2.5) (2022-07-15)
 
 ### Dependency Updates
