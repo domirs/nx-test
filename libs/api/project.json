@@ -47,9 +47,6 @@
         "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]",
         "trackDeps": true
       }
-    },
-    "github": {
-      "executor": "@jscutlery/semver:github"
     }
   }
 }
