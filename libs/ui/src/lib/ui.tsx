@@ -1,3 +1,4 @@
+import { Shared } from '@domirs/shared';
 import styles from './ui.module.css';
 
 /* eslint-disable-next-line */
@@ -8,6 +9,7 @@ export function Ui(props: UiProps) {
     <div className={styles['container']}>
       <h1>Welcome to UI!</h1>
       <p>Thats awesome!</p>
+      <Shared />
     </div>
   );
 }

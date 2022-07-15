@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@domirs/api": ["libs/api/src/index.ts"],
+      "@domirs/shared": ["libs/shared/src/index.ts"],
       "@domirs/ui": ["libs/ui/src/index.ts"]
     }
   },
