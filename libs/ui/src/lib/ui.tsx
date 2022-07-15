@@ -8,7 +8,7 @@ export function Ui(props: UiProps) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to UI!</h1>
-      <p>Thats awesome!</p>
+      <p>That's awesome!</p>
       <Shared />
     </div>
   );
