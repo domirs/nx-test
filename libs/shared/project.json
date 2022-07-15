@@ -38,6 +38,15 @@
         "jestConfig": "libs/shared/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional",
+        "tagPrefix": "${projectName}@",
+        "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]",
+        "trackDeps": true
+      }
     }
   }
 }
