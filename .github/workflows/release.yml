@@ -18,9 +18,12 @@ jobs:
           git config --local user.name "GitHub Action"
       - run: npm ci
       - name: Version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           LAST_VERSION=$(git tag -l --sort=-creatordate | head -n 1)
           npx nx affected --target=version --parallel=1 --base=$LAST_VERSION
+          npx nx affected --target=github --parallel=1 --base=$LAST_VERSION
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
