@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.1](https://github.com/domirs/nx-test/compare/shared@0.1.0...shared@0.1.1) (2022-07-15)
+
 ## 0.1.0 (2022-07-15)
 
 
