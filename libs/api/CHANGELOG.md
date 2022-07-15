@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.3.0](https://github.com/domirs/nx-test/compare/api@0.2.5...api@0.3.0) (2022-07-15)
+
+
+### Features
+
+* **api:** add a paragraph ([41a600b](https://github.com/domirs/nx-test/commit/41a600ba43cab56e8a1a278ad9deb26a1424481b))
+
 ### [0.2.5](https://github.com/domirs/nx-test/compare/api@0.2.4...api@0.2.5) (2022-07-15)
 
 ### Dependency Updates
