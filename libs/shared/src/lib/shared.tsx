@@ -6,7 +6,7 @@ export interface SharedProps {}
 export function Shared(props: SharedProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to shared library!</h1>
+      <h1>Welcome to shared library :)!</h1>
     </div>
   );
 }
