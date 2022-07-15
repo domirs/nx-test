@@ -8,6 +8,7 @@ export function Api(props: ApiProps) {
   return (
     <div className={styles['container']}>
       <h1>Welcome to api!</h1>
+      <p>Usage</p>
       <Shared />
     </div>
   );
